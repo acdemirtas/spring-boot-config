@@ -1,0 +1,18 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+db:
+  connection: '{connectionString: ''http://example.com'', username: ''foo'', password:
+    ''pass''}'
+  port: '1200'
+  host: 127.0.0.1
+my:
+  greeting: Hello World
+  list:
+    values: One,Two,Three
+
+app:
+  name: My app
+  description: Welcome to ${app.name}
